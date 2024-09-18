@@ -155,7 +155,6 @@ class HomeScreen extends StatelessWidget {
               onTap: () async {
                 await FirebaseAuth.instance.signOut(); // Log out the user
                 Navigator.pop(context);
-                // Add navigation logic to go back to login screen
               },
             ),
           ],
