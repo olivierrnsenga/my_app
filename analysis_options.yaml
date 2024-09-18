@@ -1,0 +1,5 @@
+
+linter:
+  rules:
+    avoid_print: false
+    constant_identifier_names: false
